@@ -82,4 +82,72 @@ body, h1, h2, p, ul, li, a {
     color: white;
     /* Warna teks footer */
   }
-  
+  /* Bagian login */
+#login {
+  max-width: 400px;
+  /* Lebar maksimum form */
+  margin: 50px auto;
+  /* Posisikan form di tengah */
+  padding: 20px;
+  /* Jarak dalam form */
+  background-color: #ffffff;
+  /* Warna latar belakang */
+  border-radius: 10px;
+  /* Sudut melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Bayangan */
+}
+
+#login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  /* Jarak bawah judul */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  /* Jarak antar input */
+}
+
+.form-group label {
+  display: block;
+  /* Label dalam satu baris */
+  margin-bottom: 5px;
+  /* Jarak bawah label */
+}
+
+.form-group input {
+  width: 100%;
+  /* Lebar input sesuai form */
+  padding: 10px;
+  /* Padding dalam input */
+  border: 1px solid #ccc;
+  /* Batas input */
+  border-radius: 5px;
+  /* Sudut melengkung */
+  font-size: 16px;
+  /* Ukuran teks */
+}
+
+button {
+  width: 100%;
+  /* Tombol selebar form */
+  padding: 10px;
+  /* Padding tombol */
+  background-color: #007BFF;
+  /* Warna tombol */
+  color: white;
+  /* Warna teks tombol */
+  border: none;
+  /* Hilangkan border */
+  border-radius: 5px;
+  /* Sudut melengkung */
+  font-size: 16px;
+  cursor: pointer;
+  /* Ganti kursor saat di-hover */
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Warna tombol saat di-hover */
+}
